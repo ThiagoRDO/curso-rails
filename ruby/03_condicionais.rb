@@ -15,9 +15,11 @@ end
 
 unless x >= 2
   puts 'menor que dois'
-else
-  puts 'maior que dois'
 end
+
+# melhor jeito seria
+
+puts 'menor que dois' unless x >= 2
 
 # uso do case
 
