@@ -18,7 +18,7 @@ class PessoaJuridica < Pessoa
   attr_accessor :cnpj
 
   def pagar_fornecedor
-    puts 'pagando....'
+    'pagando....'
   end
 end
 
@@ -45,4 +45,4 @@ p3.cnpj = '01010101/01010101'
 
 puts p3.nome
 
-p3.pagar_fornecedor
+puts p3.pagar_fornecedor
